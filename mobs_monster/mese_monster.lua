@@ -9,7 +9,7 @@ mobs:register_mob("mobs_monster:mese_monster", {
 	passive = false,
 	damage = 3,
 	attack_type = "shoot",
-	shoot_interval = 2,
+	shoot_interval = 0.5,
 	arrow = "mobs_monster:mese_arrow",
 	shoot_offset = 2,
 	hp_min = 10,
@@ -35,7 +35,7 @@ mobs:register_mob("mobs_monster:mese_monster", {
 	fall_speed = -6,
 	stepheight = 2.1,
 	drops = {
-		{name = "default:mese_crystal", chance = 5, min = 1, max = 3},
+		{name = "default:mese_crystal", chance = 9, min = 1, max = 3},
 		{name = "default:mese_crystal_fragment", chance = 1, min = 1, max = 9},
 	},
 	water_damage = 1,

@@ -33,7 +33,7 @@ mobs:register_mob("mobs_monster:lava_flan", {
 	view_range = 10,
 	floats = 1,
 	drops = {
-		{name = "mobs:lava_orb", chance = 2, min = 1, max = 1},
+		{name = "mobs:lava_orb", chance = 15, min = 1, max = 1},
 	},
 	water_damage = 5,
 	lava_damage = 0,
@@ -153,7 +153,7 @@ minetest.register_tool(":mobs:pick_lava", {
 		full_punch_interval = 0.4,
 		max_drop_level=3,
 		groupcaps={
-			cracky = {times={[1]=1.80, [2]=0.80, [3]=0.40}, uses=99999999999999999999, maxlevel=3},
+			cracky = {times={[1]=1.80, [2]=0.80, [3]=0.40}, uses=40, maxlevel=3},
 		},
 		damage_groups = {fleshy=6},
 	},
