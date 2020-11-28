@@ -9,14 +9,15 @@ function technic.register_compressor_recipe(data)
 end
 
 local recipes = {
-	{"default:snowblock",          "default:ice"},
-	{"default:sand 2",             "default:sandstone"},
-	{"default:desert_sand",        "default:desert_stone"},
-	{"technic:mixed_metal_ingot",  "technic:composite_plate"},
-	{"default:copper_ingot 5",     "technic:copper_plate"},
-	{"technic:coal_dust 4",        "technic:graphite"},
-	{"technic:carbon_cloth",       "technic:carbon_plate"},
-	{"technic:uranium35_ingot 5",  "technic:uranium_fuel"},
+    {"default:snowblock", "default:ice"},
+    {"default:sand 2", "default:sandstone"},
+    {"default:desert_sand", "default:desert_stone"},
+    {"default:coalblock 99", "default:diamond"},
+    {"technic:mixed_metal_ingot", "technic:composite_plate"},
+    {"default:copper_ingot 5", "technic:copper_plate"},
+    {"technic:coal_dust 4", "technic:graphite"},
+    {"technic:carbon_cloth", "technic:carbon_plate"},
+    {"technic:uranium35_ingot 5", "technic:uranium_fuel"},
 }
 
 -- defuse the default sandstone recipe, since we have the compressor to take over in a more realistic manner
